@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-example",
+  "version": "1.0.0",
+  "description": "A simple project using Tailwind CSS",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss build src/styles.css -o public/styles.css",
+    "watch": "tailwindcss build src/styles.css -o public/styles.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}

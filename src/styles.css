@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    background-color: #f4f7fa;
+    background-image: url("./assets/images/Bitmap.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+  }
+  .btn {
+    @apply min-w-fit border-none bg-palatinate_blue px-5 py-3 text-sm text-center text-white capitalize transition-colors duration-300 transform rounded-md hover:bg-opacity-90 lg:mt-0;
+  }
+  .title {
+    @apply text-tart_orange text-base font-semibold;
+  }
+  .sec-title {
+    @apply text-xl font-bold text-dark_gunmetal mb-4;
+  }
+  .main-paragraph {
+    @apply text-3xl font-bold text-dark_gunmetal my-4;
+  }
+  .sec-paragraph {
+    @apply text-base md:text-lg lg:text-xl text-light_gunmetal text-opacity-80;
+  }
+  .head-section {
+    @apply text-center max-w-[525px] mx-auto;
+  }
+  .forward-btn {
+    @apply flex gap-4 items-center text-white capitalize text-xl;
+  }
+  .testmonials_2 {
+    background: url("./assets/images/testimonial2.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .footer_link {
+    @apply text-white block mt-2 text-sm hover:underline;
+  }
+}
