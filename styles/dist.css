@@ -600,7 +600,7 @@ html {
 
 header {
   background-color: #f4f7fa;
-  background-image: url("./assets/images/Bitmap.png");
+  background-image: url("../assets/images/Bitmap.png");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -709,7 +709,7 @@ header {
 }
 
 .testmonials_2 {
-  background: url("./assets/images/testimonial2.png");
+  background: url("../assets/images/testimonial2.png");
   background-size: cover;
   background-position: center;
 }
