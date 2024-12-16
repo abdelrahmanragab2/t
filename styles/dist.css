@@ -911,10 +911,6 @@ header {
   max-width: 100%;
 }
 
-.max-w-\[515px\] {
-  max-width: 515px;
-}
-
 .max-w-xs {
   max-width: 20rem;
 }
@@ -1057,6 +1053,10 @@ header {
 .bg-dark_gunmetal {
   --tw-bg-opacity: 1;
   background-color: rgb(22 28 45 / var(--tw-bg-opacity));
+}
+
+.bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
 }
 
 .object-cover {
@@ -1223,6 +1223,12 @@ header {
   transition-duration: 150ms;
 }
 
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -1271,16 +1277,8 @@ header {
     display: inline;
   }
 
-  .md\:w-1\/2 {
-    width: 50%;
-  }
-
   .md\:max-w-\[730px\] {
     max-width: 730px;
-  }
-
-  .md\:max-w-\[515px\] {
-    max-width: 515px;
   }
 
   .md\:grid-cols-2 {
