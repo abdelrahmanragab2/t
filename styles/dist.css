@@ -1279,6 +1279,10 @@ header {
     max-width: 730px;
   }
 
+  .md\:max-w-\[515px\] {
+    max-width: 515px;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1397,6 +1401,10 @@ header {
 @media (min-width: 1280px) {
   .xl\:w-1\/2 {
     width: 50%;
+  }
+
+  .xl\:max-w-\[515px\] {
+    max-width: 515px;
   }
 
   .xl\:flex-row {
