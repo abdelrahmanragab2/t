@@ -29,7 +29,7 @@
     @apply text-base md:text-lg lg:text-xl text-light_gunmetal text-opacity-80;
   }
   .head-section {
-    @apply text-center max-w-[525px] mx-auto;
+    @apply text-center max-w-[525px] mx-auto mb-14;
   }
   .forward-btn {
     @apply flex gap-4 items-center text-white capitalize text-xl;
