@@ -130,7 +130,7 @@
 
     <section class="story overflow-hidden">
       <div class="container py-6 px-8 mx-auto">
-        <div class="flex flex-col xl:flex-row justify-between xl:items-center gap-6">
+        <div class="flex flex-col xl:flex-row justify-between xl:items-center gap-8">
           <div class="right xl:w-1/2">
             <h1 class="title">
               Our Story
@@ -142,8 +142,11 @@
           </div>
           <div class="left xl:w-1/2 space-y-8">
             <div class="flex gap-8 items-end flex-wrap">
-              <img src="./assets/images/story2.png" alt="story2" loading="lazy"
-                class="mx-auto md:mx-0 max-w-xs h-auto object-cover blur-xl">
+              <div class="img_container x-auto md:mx-0 w-fit relative blur-xl">
+                <img src="./assets/images/Fill.png" alt="Fill"
+                  class="absolute -top-2 -right-4 opacity-50 lg:-right-8 lg:-top-8">
+                <img src="./assets/images/story2.png" alt="story2" loading="lazy" class="max-w-xs h-auto object-cover">
+              </div>
               <img src="./assets/images/story1.png" alt="story1" loading="lazy"
                 class="mx-auto md:mx-0 object-cover blur-xl">
             </div>
